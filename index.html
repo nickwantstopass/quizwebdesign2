@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Sneaker Quiz</title>
+  <link href ="style.css" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src = "main.js"></script>
+
+</head>
+
+<body>
+
+<h1>Sneaker Heads Welcomed</h1>
+
+<form id="quiz" name="quiz">
+
+  <p>What was the first retro Air Jordan?</p>
+
+  <input id="textbox" type="text" name="question1">
+
+  <p>What sneaker brand is well known for their slogan, "Just Do It!" ?</p>
+
+  <input type="radio" id="mc" name="question2" value="Nike"> Nike<br>
+  <input type="radio" id="mc" name="question2" value="Adidas"> Adidas<br>
+  <input type="radio" id="mc" name="question2" value="Vans"> Vans<br>
+
+  <p>What sneaker was worn in the movie "Space Jam" ft. Micheal Jordan ?</p>
+
+  <input type="radio" id="mc" name="question3" value="Space Jam 11"> Space Jam 11<br>
+  <input type="radio" id="mc" name="question3" value="Bugs Bunny 8"> Bugs Bunny 8<br>
+  <input type="radio" id="mc" name="question3" value="Daffy Duck 23"> Daffy Duck 23<br>
+
+  <input type="button"  id="button" value="I'm Done!" onclick="check();">
+
+
+</form>
+
+<div id="after_submit">
+
+  <p id="messages"></p>
+  <p id="number_correct"></p>
+  <img id="pictures">
+
+</div>
+
+
+</body>
